@@ -1,5 +1,5 @@
 # picrossJS
-picross clone in javascript
+picross clone in javascript<br/>
 demo : http://luhof.fr/games/picross/
 
 ##todo
