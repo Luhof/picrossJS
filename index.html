@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Picross</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+
+	<body>
+
+		
+
+		<div id="wrapper">
+			<h1>JavaScript Picross</h1>
+
+			<div id="pen" class="toolButton active" onclick="changestate('pen')">
+					<img src="img/pencil43.png" alt="pencil"/>
+				</div>
+				<div id="cross" class="toolButton" onclick="changestate('cross')">
+					<img src="img/delete30.png" alt="pencil"/>
+				</div>
+				<div class="clr"></div>
+			<div id="game">
+
+				
+
+				
+			</div>
+			<div id="infos">
+
+				<div id="info">
+
+
+				</div>
+
+				<div id="levels">
+				<h2>Puzzles</h2>
+
+				</div>
+			</div>
+			<div class="clr"></div>
+		</div>
+
+		<div id="about">
+
+			<h2>About</h2>
+			<strong>If you don't know how to play Picross</strong>, there are plenty of tutorials on the web like <a href="http://www.thonky.com/picross/" target="_blank">this one</a><br/>If you are already addicted to Picross, you should totally check out <a href="http://picross3d.nintendo.com/" target="_blank">Picross 3D</a> on the original NDS. This shit is dope.<br/><br/>
+			This is a little project made in a few hours, I wanted to make a picross clone. I still don't know if I'll update this, but I'm glad I made it ! Pure JS/CSS, no framework, no jQuery !
+			<br/><br/>Eventual to dos : right click support, "draw" system (user doesn't have to click every block but can litteraly draw a line), random puzzles.<br/><br/>
+
+			Feel free to use my crappy code yo<br/>
+		but it's still a complete mess<br/>
+		really<br/>
+I like you<br/><br/>
+
+
+		</div>
+
+		<a href="http://luhof.fr" target="_blank">Luhof</a> - 2014<br/>
+		
+		
+		<a href="http://twitter.com/luhof" target="_blank">Twitter</a> | <a href="http://luhof.tumblr.com" target="_blank">Tumblr</a>
+
+	<script type="text/javascript" src="puzzle.js"></script>
+	<script type="text/javascript" src="class/case.js"></script>
+	<script type="text/javascript" src="class/game.js"></script>
+	<script type="text/javascript" src="picross.js"></script>
+
+	<!--analytics-->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47423650-1', 'luhof.fr');
+  ga('send', 'pageview');
+</script>
+
+
+	</body>
+
+</html>
